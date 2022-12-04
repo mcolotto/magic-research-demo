@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/magic-research-demo/static/js/app.ff36c213.chunk.js",
-    "app.js.map": "/magic-research-demo/static/js/app.ff36c213.chunk.js.map",
+    "app.js": "/magic-research-demo/static/js/app.34897724.chunk.js",
+    "app.js.map": "/magic-research-demo/static/js/app.34897724.chunk.js.map",
     "runtime~app.js": "/magic-research-demo/static/js/runtime~app.3241f55f.js",
     "runtime~app.js.map": "/magic-research-demo/static/js/runtime~app.3241f55f.js.map",
     "static/js/2.39e367ee.chunk.js": "/magic-research-demo/static/js/2.39e367ee.chunk.js",
@@ -50,6 +50,6 @@
   "entrypoints": [
     "static/js/runtime~app.3241f55f.js",
     "static/js/2.39e367ee.chunk.js",
-    "static/js/app.ff36c213.chunk.js"
+    "static/js/app.34897724.chunk.js"
   ]
 }
