@@ -2,8 +2,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "lang": "en",
-  "name": "MagicResearch",
-  "short_name": "MagicResearch",
+  "name": "Magic Research Demo",
+  "short_name": "Magic Research Demo",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "related_applications": [
