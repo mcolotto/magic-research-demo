@@ -5,7 +5,6 @@
   "name": "Magic Research Demo",
   "short_name": "Magic Research Demo",
   "start_url": "/?utm_source=web_app_manifest",
-  "orientation": "portrait",
   "related_applications": [
     {
       "platform": "play",

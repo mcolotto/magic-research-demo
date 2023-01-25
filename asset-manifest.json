@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/magic-research-demo/static/js/app.5907749a.chunk.js",
-    "app.js.map": "/magic-research-demo/static/js/app.5907749a.chunk.js.map",
+    "app.js": "/magic-research-demo/static/js/app.9e54459c.chunk.js",
+    "app.js.map": "/magic-research-demo/static/js/app.9e54459c.chunk.js.map",
     "runtime~app.js": "/magic-research-demo/static/js/runtime~app.3241f55f.js",
     "runtime~app.js.map": "/magic-research-demo/static/js/runtime~app.3241f55f.js.map",
-    "static/js/2.9313796c.chunk.js": "/magic-research-demo/static/js/2.9313796c.chunk.js",
-    "static/js/2.9313796c.chunk.js.map": "/magic-research-demo/static/js/2.9313796c.chunk.js.map",
+    "static/js/2.c2e01c39.chunk.js": "/magic-research-demo/static/js/2.c2e01c39.chunk.js",
+    "static/js/2.c2e01c39.chunk.js.map": "/magic-research-demo/static/js/2.c2e01c39.chunk.js.map",
     "fonts/AntDesign.ttf": "/magic-research-demo/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/magic-research-demo/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/magic-research-demo/./fonts/Feather.ttf",
@@ -24,7 +24,7 @@
     "index.html": "/magic-research-demo/index.html",
     "manifest.json": "/magic-research-demo/manifest.json",
     "serve.json": "/magic-research-demo/serve.json",
-    "static/js/2.9313796c.chunk.js.LICENSE.txt": "/magic-research-demo/static/js/2.9313796c.chunk.js.LICENSE.txt",
+    "static/js/2.c2e01c39.chunk.js.LICENSE.txt": "/magic-research-demo/static/js/2.c2e01c39.chunk.js.LICENSE.txt",
     "static/media/ancientHeadmaster.png": "/magic-research-demo/static/media/ancientHeadmaster.b7fa7587.png",
     "static/media/angrySheep.png": "/magic-research-demo/static/media/angrySheep.868ded22.png",
     "static/media/attack.png": "/magic-research-demo/static/media/attack.28dc7456.png",
@@ -47,7 +47,6 @@
     "static/media/mouse.png": "/magic-research-demo/static/media/mouse.139223ad.png",
     "static/media/redSlime.png": "/magic-research-demo/static/media/redSlime.68b597d0.png",
     "static/media/rocket.png": "/magic-research-demo/static/media/rocket.d2f3bf41.png",
-    "static/media/rowell.png": "/magic-research-demo/static/media/rowell.2dac8dc2.png",
     "static/media/skeleton.png": "/magic-research-demo/static/media/skeleton.fd7f5027.png",
     "static/media/slime.png": "/magic-research-demo/static/media/slime.d7b715fc.png",
     "static/media/star.png": "/magic-research-demo/static/media/star.69c71386.png",
@@ -57,7 +56,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.3241f55f.js",
-    "static/js/2.9313796c.chunk.js",
-    "static/js/app.5907749a.chunk.js"
+    "static/js/2.c2e01c39.chunk.js",
+    "static/js/app.9e54459c.chunk.js"
   ]
 }
