@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/magic-research-demo/static/js/app.0da876e7.chunk.js",
-    "app.js.map": "/magic-research-demo/static/js/app.0da876e7.chunk.js.map",
+    "app.js": "/magic-research-demo/static/js/app.c6f43291.chunk.js",
+    "app.js.map": "/magic-research-demo/static/js/app.c6f43291.chunk.js.map",
     "runtime~app.js": "/magic-research-demo/static/js/runtime~app.3241f55f.js",
     "runtime~app.js.map": "/magic-research-demo/static/js/runtime~app.3241f55f.js.map",
-    "static/js/2.02b8f23b.chunk.js": "/magic-research-demo/static/js/2.02b8f23b.chunk.js",
-    "static/js/2.02b8f23b.chunk.js.map": "/magic-research-demo/static/js/2.02b8f23b.chunk.js.map",
+    "static/js/2.eb239ef4.chunk.js": "/magic-research-demo/static/js/2.eb239ef4.chunk.js",
+    "static/js/2.eb239ef4.chunk.js.map": "/magic-research-demo/static/js/2.eb239ef4.chunk.js.map",
     "fonts/AntDesign.ttf": "/magic-research-demo/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/magic-research-demo/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/magic-research-demo/./fonts/Feather.ttf",
@@ -24,7 +24,7 @@
     "index.html": "/magic-research-demo/index.html",
     "manifest.json": "/magic-research-demo/manifest.json",
     "serve.json": "/magic-research-demo/serve.json",
-    "static/js/2.02b8f23b.chunk.js.LICENSE.txt": "/magic-research-demo/static/js/2.02b8f23b.chunk.js.LICENSE.txt",
+    "static/js/2.eb239ef4.chunk.js.LICENSE.txt": "/magic-research-demo/static/js/2.eb239ef4.chunk.js.LICENSE.txt",
     "static/media/ancientHeadmaster.png": "/magic-research-demo/static/media/ancientHeadmaster.b7fa7587.png",
     "static/media/angrySheep.png": "/magic-research-demo/static/media/angrySheep.868ded22.png",
     "static/media/attack.png": "/magic-research-demo/static/media/attack.28dc7456.png",
@@ -38,6 +38,7 @@
     "static/media/defense.png": "/magic-research-demo/static/media/defense.c8a95e19.png",
     "static/media/earthSpeck.png": "/magic-research-demo/static/media/earthSpeck.069668e6.png",
     "static/media/enchantedSheep.png": "/magic-research-demo/static/media/enchantedSheep.9e3d62ed.png",
+    "static/media/exploration.png": "/magic-research-demo/static/media/exploration.28dc7456.png",
     "static/media/heart.png": "/magic-research-demo/static/media/heart.23b5c2c0.png",
     "static/media/hp.png": "/magic-research-demo/static/media/hp.7245ec10.png",
     "static/media/hpRegen.png": "/magic-research-demo/static/media/hpRegen.aab27f85.png",
@@ -56,7 +57,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.3241f55f.js",
-    "static/js/2.02b8f23b.chunk.js",
-    "static/js/app.0da876e7.chunk.js"
+    "static/js/2.eb239ef4.chunk.js",
+    "static/js/app.c6f43291.chunk.js"
   ]
 }
