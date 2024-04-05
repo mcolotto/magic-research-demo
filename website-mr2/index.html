@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Maticolotto" />
+    <title>Magic Research 2</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png" />
+    <meta name="theme-color" content="#08f" />
+
+    <style>
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      body {
+        color: #ddd;
+        background-color: #111;
+      }
+
+      .card {
+        color: #ddd;
+        background-color: #222;
+      }
+
+      .card-header {
+        background-color: rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="px-4 my-5 text-center">
+        <div
+          style="display: flex"
+          class="justify-content-center flex-row align-items-center"
+        >
+          <!-- <div style="max-width: 1024px; flex: 1; background-size: contain; background-image: url('assets/logo-android.png');"></div> -->
+          <div style="width: 100%">
+            <img
+              style="max-width: 100%; max-height: 512; object-fit: contain"
+              src="assets/feature_graphic1.png"
+            />
+          </div>
+        </div>
+        <h1 class="display-5 fw-bold mt-3">Magic Research 2</h1>
+        <h5>The next incremental RPG from the creator of Magic Research</h5>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            In Magic Research 2, you are a rookie wizard with a single ambition:
+            to find or create the Philosopher's Stone, a legendary magical item
+            that is said to be able to cure any illness. As you do so, you will
+            learn more than you ever imagined about Magic and about the world
+            around you. What kinds of adventures await you?
+          </p>
+          <div
+            class="d-flex flex-row align-items-center justify-content-center"
+          >
+            <div class="px-2">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mcolotto.magicresearchtwo&utm_source=main-site&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+                ><img
+                  alt="Get it on Google Play"
+                  src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                  height="58"
+              /></a>
+            </div>
+            <div class="px-2">
+              <a href="https://apps.apple.com/app/id6478566840"
+                ><img
+                  alt="Download on the Apple App Store"
+                  src="assets/apple-appstore-badge.svg"
+                  height="40"
+                  style="margin: 8px"
+              /></a>
+            </div>
+            <div class="px-2">
+              <a
+                href="https://store.steampowered.com/app/2864890/Magic_Research_2/?utm_source=main-site"
+                ><img
+                  alt="Play on Steam"
+                  src="assets/availableonsteam.png"
+                  height="40"
+                  style="margin: 8px"
+              /></a>
+            </div>
+          </div>
+          <div
+            id="freedemo"
+            class="d-grid mt-2 gap-2 d-sm-flex align-items-center justify-content-sm-center"
+          >
+            <p>
+              Play the Demo for free:
+              <a
+                href="https://store.steampowered.com/app/2920360/Magic_Research_2_Demo/?utm_source=main-site"
+                >Steam</a
+              >
+              -
+              <a
+                href="https://mcolotto.github.io/magic-research-demo/magic-research-2"
+                >Web</a
+              >
+              -
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mcolotto.magicresearchtwodemo&utm_source=main-site"
+                >Android</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="b-example-divider"></div>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div
+          class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5"
+        >
+          <div class="col-lg-6 d-flex justify-content-center">
+            <img
+              src="assets/screenshot-1.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Exploration"
+              width="360"
+              height="640"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mt-3 mb-3 text-center">
+              A Refined Combat System
+            </h1>
+            <p class="lead">
+              Magic Research 2 features a refinement of its predecessor's combat
+              system. Your character will fight on their own, but you are always
+              free to cast spells to change the balance. Or you can let your
+              Wizards cast them for you!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div
+          class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5"
+        >
+          <div class="col-lg-6 d-flex justify-content-center">
+            <img
+              src="assets/screenshot-2.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Inventory"
+              width="360"
+              height="640"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mt-3 mb-3 text-center">
+              Endless Synergies
+            </h1>
+            <p class="lead">
+              With hundreds of items and dozens of spells, many of which are
+              relevant throughout the entire game, there are countless
+              strategies to find and exploit. Can you break the game?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div
+          class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5"
+        >
+          <div class="col-lg-6 d-flex justify-content-center">
+            <img
+              src="assets/screenshot-3.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Storylines"
+              width="360"
+              height="640"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mt-3 mb-3 text-center">
+              Concrete Ending
+            </h1>
+            <p class="lead">
+              The game has plenty of Storylines, side stories which unlock
+              powerful bonuses - including entirely new features - that can
+              drastically change the way you play. And as you follow the main
+              story, you'll eventually get to a clear ending.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div
+          class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5"
+        >
+          <div class="col-lg-6 d-flex justify-content-center">
+            <img
+              src="assets/screenshot-4.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Optimized for Various Screen Sizes"
+              width="1280"
+              height="720"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mt-3 mb-3 text-center">
+              Optimized for Phones and Desktop
+            </h1>
+            <p class="lead">
+              The game's UI adapts to the device's screen size, allowing you to
+              have a good experience regardless of whether you are playing on a
+              phone, a tablet, or a PC.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="b-example-divider"></div>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <h1 class="mb-3">Frequently Asked Questions</h1>
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Q: Do I need to play Magic Research before playing Magic
+                  Research 2?
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                No, you do not need to play Magic Research first. Try the
+                <a href="#freedemo">free demo</a> now and see if you enjoy the
+                game!
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  Q: How is this game similar to / different from Magic
+                  Research?
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p>
+                  Magic Research 2 shares some of the core features with Magic
+                  Research, such as the concept of researching or studying magic
+                  to learn new spells, or the battle system in Exploration. It
+                  also shares the same base UI. If you have played Magic
+                  Research before, you will feel quite familiar.
+                </p>
+                <p>However, there are many, many differences:</p>
+                <ul>
+                  <li>
+                    The story, spells, Storylines, items, enemies, etc. are all
+                    entirely different;
+                  </li>
+                  <li>
+                    There are multiple new features not present in Magic
+                    Research;
+                  </li>
+                  <li>
+                    Even the shared features are quite different. Spells are
+                    organized in Elements instead of Schools. Land is limited,
+                    and you need to plan what you want to build. Inventory space
+                    is infinite and item creation can be automated. Potions are
+                    no longer consumable; instead they are equipment that
+                    recharges every combat. The list goes on.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  Q: Is the game available in languages other than English?
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p>
+                  As of the time of writing, the game is only available in
+                  English. However, the game has the ability to import a
+                  <i>translation file</i> which can allow you to play in a
+                  different language if such a file is created.
+                </p>
+                <p>
+                  If you are interested in translating the game, please reach
+                  out to our support email:
+                  <a href="mailto:magic.research.game@gmail.com"
+                    >magic.research.game@gmail.com</a
+                  >.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link btn-block text-left collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                >
+                  Q: I am visually impaired. Is the game playable using a screen
+                  reader?
+                </button>
+              </h2>
+            </div>
+
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <p>The answer is: It depends on the platform.</p>
+                <ul>
+                  <li>
+                    The Windows Steam version <i>should be playable</i> using a
+                    screen reader like NVDA. You are encouraged to try the Steam
+                    demo version first to make sure. If the game is not
+                    playable, please send an email to
+                    <a href="mailto:magic.research.game@gmail.com"
+                      >magic.research.game@gmail.com</a
+                    >
+                    so that we may fix it.
+                  </li>
+                  <li>
+                    The iOS version <i>should be playable</i> using VoiceOver.
+                    Unfortunately, there is no demo version for iOS. Magic Tap
+                    is supported in a few screens, similarly to Magic Research.
+                    If the game is not playable, please send an email to
+                    <a href="mailto:magic.research.game@gmail.com"
+                      >magic.research.game@gmail.com</a
+                    >
+                    so that we may fix it.
+                  </li>
+                  <li>
+                    The Android version, unfortunately,
+                    <b>is not playable using a screen reader</b> due to
+                    limitations of the UI framework used for the game and
+                    operating system. You are still free to try the Android demo
+                    version if you'd like.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="b-example-divider"></div>
+
+      <div class="px-4 py-5 my-5 text-center magic-research-header">
+        <div class="mx-auto">
+          <h1 class="fw-bold lh-1 mt-3 mb-3">Support & Help</h1>
+          <p>
+            For help and support about the app, you may contact us via email at:
+            <a href="mailto:magic.research.game@gmail.com"
+              >magic.research.game@gmail.com</a
+            >
+          </p>
+          <p class="mb-4">
+            For guides, and help on the game, join the official Discord:
+          </p>
+          <iframe
+            src="https://discord.com/widget?id=1068177746817208341&theme=dark"
+            width="350"
+            height="300"
+            allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
