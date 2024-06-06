@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "./static/js/main.95f3eb1b.js",
-    "static/js/923.f9a6ed0e.js": "./static/js/923.f9a6ed0e.js",
+    "main.js": "./static/js/main.3bc58da7.js",
+    "static/js/923.f0a1fced.js": "./static/js/923.f0a1fced.js",
     "static/media/MaterialCommunityIcons.ttf": "./static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
     "static/media/click.wav": "./static/media/click.5bdbcd3c8ee5171a713f.wav",
     "static/media/Ionicons.ttf": "./static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
@@ -39,7 +39,6 @@
     "static/media/sewerFly.png": "./static/media/sewerFly.7ee314627ad679473a73.png",
     "static/media/lifeShard.png": "./static/media/lifeShard.f39aea53526dd13e29bd.png",
     "static/media/accuracy.png": "./static/media/accuracy.649233ac1ef2b1be26b2.png",
-    "static/media/lifeEssence.png": "./static/media/lifeEssence.2813909652b221a53c1e.png",
     "static/media/lifePrism.png": "./static/media/lifePrism.1441844483cbed69e6c4.png",
     "static/media/cotton.png": "./static/media/cotton.7a5430dc495d2db68569.png",
     "static/media/help.png": "./static/media/help.3cc68d4d5e5240299276.png",
@@ -47,27 +46,25 @@
     "static/media/monstiumPaper.png": "./static/media/monstiumPaper.48093d14b510fef8efa1.png",
     "static/media/timeShard.png": "./static/media/timeShard.94dd65125a3682b6d105.png",
     "static/media/mindShard.png": "./static/media/mindShard.937aa61d4098a24d513f.png",
-    "static/media/timeEssence.png": "./static/media/timeEssence.5ae113e1c5b8da30cb69.png",
     "static/media/timePrism.png": "./static/media/timePrism.c5d6046691ee621ae7c3.png",
     "static/media/mindPrism.png": "./static/media/mindPrism.946637e6451c1fc0bf4d.png",
-    "static/media/mindEssence.png": "./static/media/mindEssence.d0d14e579b72e1dfbc6d.png",
     "index.html": "./index.html",
     "static/media/potionOfToughness.png": "./static/media/potionOfToughness.59ef441db20d63d37be0.png",
     "static/media/ritualWeakness.png": "./static/media/ritualWeakness.671d05c9a93f09d24920.png",
+    "static/media/hpRegen.png": "./static/media/hpRegen.194981c8c33a17d5ae24.png",
     "static/media/divineImmunity.png": "./static/media/divineImmunity.d8181af03c563ca9a1da.png",
     "favicon-32.png": "./favicon-32.png",
     "static/media/space.png": "./static/media/space.b664d4355a0284916e21.png",
     "static/media/spaceShard.png": "./static/media/spaceShard.d4f9f051b44b4e470451.png",
     "static/media/spacePrism.png": "./static/media/spacePrism.de5dc3c8a4604b3d77ec.png",
-    "static/media/spaceEssence.png": "./static/media/spaceEssence.fdfa7a6c41a5edb5729d.png",
     "favicon-16.png": "./favicon-16.png",
     "manifest.json": "./manifest.json",
     "serve.json": "./serve.json",
-    "main.95f3eb1b.js.map": "./static/js/main.95f3eb1b.js.map",
-    "923.f9a6ed0e.js.map": "./static/js/923.f9a6ed0e.js.map"
+    "main.3bc58da7.js.map": "./static/js/main.3bc58da7.js.map",
+    "923.f0a1fced.js.map": "./static/js/923.f0a1fced.js.map"
   },
   "entrypoints": [
-    "static/js/923.f9a6ed0e.js",
-    "static/js/main.95f3eb1b.js"
+    "static/js/923.f0a1fced.js",
+    "static/js/main.3bc58da7.js"
   ]
 }
